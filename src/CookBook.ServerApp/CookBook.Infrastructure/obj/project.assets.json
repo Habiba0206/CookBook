@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CookBook.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CookBook.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CookBook.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CookBook.Application.dll": {}
+        }
+      },
+      "CookBook.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CookBook.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CookBook.Domain.dll": {}
+        }
+      },
+      "CookBook.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CookBook.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CookBook.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CookBook.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CookBook.Application/1.0.0": {
+      "type": "project",
+      "path": "../CookBook.Application/CookBook.Application.csproj",
+      "msbuildProject": "../CookBook.Application/CookBook.Application.csproj"
+    },
+    "CookBook.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CookBook.Domain/CookBook.Domain.csproj",
+      "msbuildProject": "../CookBook.Domain/CookBook.Domain.csproj"
+    },
+    "CookBook.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../CookBook.Persistence/CookBook.Persistence.csproj",
+      "msbuildProject": "../CookBook.Persistence/CookBook.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CookBook.Application >= 1.0.0",
+      "CookBook.Persistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\satto\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Infrastructure\\CookBook.Infrastructure.csproj",
+      "projectName": "CookBook.Infrastructure",
+      "projectPath": "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Infrastructure\\CookBook.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\satto\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\satto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Application\\CookBook.Application.csproj": {
+              "projectPath": "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Application\\CookBook.Application.csproj"
+            },
+            "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Persistence\\CookBook.Persistence.csproj": {
+              "projectPath": "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.Persistence\\CookBook.Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
