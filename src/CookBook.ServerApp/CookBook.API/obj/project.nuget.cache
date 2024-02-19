@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "QiOTKK79goPEq0IOGLCCnbzaa1ZFS4m8npcLE2X8Apstyb5guy0yzUgnmRHWy7PWYhafvIfbT9ktJCejPP1ePg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\CookBook\\src\\CookBook.ServerApp\\CookBook.API\\CookBook.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\satto\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\satto\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\satto\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\satto\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\satto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\satto\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

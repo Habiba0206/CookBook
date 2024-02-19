@@ -3,12 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA948BF4-7F37-412F-A4F5-E1A2E6EA9EE9}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Domain", "CookBook.Domain\CookBook.Domain.csproj", "{471DF587-3F0D-4957-AEF9-05847B9D9509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Persistence", "CookBook.Persistence\CookBook.Persistence.csproj", "{BDDA16C3-7CC3-4834-812B-8438E880D858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Application", "CookBook.Application\CookBook.Application.csproj", "{F7C4C4EF-567D-461D-96CF-D3B4F0ADA975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.Infrastructure", "CookBook.Infrastructure\CookBook.Infrastructure.csproj", "{2A18EE09-B7FD-4D85-BC25-908330C8AE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook.API", "CookBook.API\CookBook.API.csproj", "{8FB1D2A6-08E5-4D8F-B4B0-B2F0B167191F}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{471DF587-3F0D-4957-AEF9-05847B9D9509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471DF587-3F0D-4957-AEF9-05847B9D9509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471DF587-3F0D-4957-AEF9-05847B9D9509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471DF587-3F0D-4957-AEF9-05847B9D9509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDA16C3-7CC3-4834-812B-8438E880D858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDA16C3-7CC3-4834-812B-8438E880D858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDA16C3-7CC3-4834-812B-8438E880D858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDA16C3-7CC3-4834-812B-8438E880D858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C4C4EF-567D-461D-96CF-D3B4F0ADA975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C4C4EF-567D-461D-96CF-D3B4F0ADA975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C4C4EF-567D-461D-96CF-D3B4F0ADA975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C4C4EF-567D-461D-96CF-D3B4F0ADA975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A18EE09-B7FD-4D85-BC25-908330C8AE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A18EE09-B7FD-4D85-BC25-908330C8AE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A18EE09-B7FD-4D85-BC25-908330C8AE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A18EE09-B7FD-4D85-BC25-908330C8AE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB1D2A6-08E5-4D8F-B4B0-B2F0B167191F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB1D2A6-08E5-4D8F-B4B0-B2F0B167191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB1D2A6-08E5-4D8F-B4B0-B2F0B167191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB1D2A6-08E5-4D8F-B4B0-B2F0B167191F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
